@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "indent": 2,
+    "id-length": 0,
+    "func-names": 0,
+    "spaced-comment": 0,
+    "one-var": [2, "never"],
+    "strict": 1
+  },
+  "plugins": [
+    "react"
+  ]
+}
